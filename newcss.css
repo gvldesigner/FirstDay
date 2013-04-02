@@ -1,0 +1,35 @@
+
+.header {
+
+	background: blue;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin: 52px;
+}
+.sidebar {
+	width:30%;
+	border:1px solid green;
+	float: left;
+	padding: 20px;
+}
+.main {
+	float: right;
+	border: 2px dashed red;
+	width:60%;
+	padding: 20px;
+}
+.footer {
+	background: rgb(15,15,150);
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin: 52px;
+	clear: both;
+	top: 0px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	z-index: 1;
+}

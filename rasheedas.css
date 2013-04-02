@@ -1,0 +1,114 @@
+/*rasheeda's css*/
+
+
+body {
+	margin: 0px;
+}
+#blogtopper {
+	width: 100%;
+	background-color: #663333;
+	height:160px;
+	position: absolute;
+	z-index: -1;
+}
+.header {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 58px;
+}
+.bio {
+	width:450px;
+}
+h1 {
+	font-family: arial;
+	font-weight: 100;
+	font-size: 50px;
+	color: #ffffff;
+}
+h2 {
+	font-family: Times;
+	font-weight: 100;
+	font-size: 22px;
+	color: #444444;
+}
+h3 {
+	font-family: Times;
+	font-weight: strong;
+	font-size: 18px;
+	color: #444444;
+}
+hr {
+	border-top:solid 1px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	color: #888888;
+}
+.finish hr {
+	margin-top: 20px;
+	margin-bottom: 18px;
+	color: #888;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #7C7C83;
+}
+.span {
+	padding-top: 60px;
+	width: 450px;
+}
+#start {
+	width: 450px;
+	float: left;
+}
+.finish {
+	width: 300px;
+	background-color: #F8F0F0;
+	float: left;
+	margin-top: 64px;
+	height:400px;
+	margin-left: 20px;
+	padding-left: 18px;
+	padding-right: 18px;
+	padding-top: 10px;
+}
+p { 
+	font-size: 13px;
+	color: #444444;
+	line-height: 18px;
+}
+.footer {
+	background-color: #333333;
+	height: 120px;
+	clear: both;
+	width: 100%;
+	margin-top: 50px;
+}
+
+
+/* tools */
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}

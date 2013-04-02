@@ -1,0 +1,36 @@
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+ctrl + p = up
+ctrl + n = down
+ctrl + f = forward
+ctrl + b = backward
+
+deleting
+ctrl + d = delete forward
+ctrl + h = detele backward
+ctrl + k delete all forward
+
+end of line
+ctrl + e = end of line
+ctrl + al = beginning of line
+
+
+cmd + shfit + d = dupicate line
+
+ctr + o = return without moving the cursor
+
+suplime only
+
+ctrl + cmd + up/down = move the current up or down
+cmd + shift + d = duplicate line
+cmd + d = select word
+cmd + clock = set multiple cursors
+cmd + ]/[ = indent forward/backward
+cmd + u = undo
+
+
