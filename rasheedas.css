@@ -6,7 +6,8 @@ body {
 }
 #blogtopper {
 	width: 100%;
-	background-color: #663333;
+	background-image: images/crisscrossBkgd.jpg;
+	background-repeat:repeat-x;
 	height:160px;
 	position: absolute;
 	z-index: -1;
